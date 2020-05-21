@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  ssoUrl: 'http://localhost:8080'
 };
