@@ -12,7 +12,7 @@ export function initApp() {
       setTimeout(() => {
         console.log('In initApp');
         resolve();
-      }, 2000);
+      }, 500);
     });
   };
 }
