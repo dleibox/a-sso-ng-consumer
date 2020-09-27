@@ -1,11 +1,9 @@
-export const A_CONFIG_URL = '/assets/config/app-config.json';
-
 export interface A_CONFIG {
-  production: boolean;
-  apiBaseUrl: string;
+    production: boolean;
+    ssoBaseUrl: string;
 }
 
 export const appConfig: A_CONFIG = {
-  production: false,
-  apiBaseUrl: null
+    production: false,
+    ssoBaseUrl: null
 };

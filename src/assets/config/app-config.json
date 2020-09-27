@@ -1,4 +1,4 @@
 {
     "production": true,
-    "apiBaseUrl": ""
+    "ssoBaseUrl": "http://sso.localhost:8080"
 }

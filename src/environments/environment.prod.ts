@@ -1,4 +1,4 @@
 export const environment = {
-  production: true,
-  ssoUrl: 'http://sso.ezez.ca'
+    production: true,
+    appConfig: 'https://raw.githubusercontent.com/dleibox/a-json-data/master/app-config.json'
 };
