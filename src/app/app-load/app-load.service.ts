@@ -29,6 +29,7 @@ export class AppLoadService {
       });
   }
 
+  // async is okay here
   ssoLogin(): Promise<any> {
     return new Promise((resolve, reject) => {
       const q = new URLSearchParams(this.document.location.search); // alternative: inject UrlSerializer or new DefaultUrlSerializer()
