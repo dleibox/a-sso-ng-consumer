@@ -1,4 +1,4 @@
 {
     "production": true,
-    "ssoBaseUrl": "http://sso.localhost:8080"
+    "ssoBaseUrl": "https://sso.cynthiaworld.com"
 }
